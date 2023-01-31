@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 h1 {
@@ -8,7 +8,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 44px;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 71px;
     text-align: left;
 }
 
@@ -17,6 +17,7 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     padding-left: 100px;
+    padding-bottom: 1-px;;
 }
 
 .headshot {
@@ -47,16 +48,18 @@ h1 {
 .top {
     background-color: rgb(125, 99, 138);
     height: 300px;
+    padding-top: 20px;
+    padding-left:20px;
 }
 
 .content {
     background-color: rgb(255, 255, 255);
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
-    padding-left: 100px;
     padding-top: 50px;
     line-height: 1.5;
-    width: 1000px
+    width: 1000px;
+    margin:auto;
 }
 
 .multicolumn {
@@ -105,13 +108,16 @@ button {
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     background-color: rgb(233, 227, 255);
-    margin: 50px;
+    width: 200px;
+    margin-bottom: 50px;
+    margin-left: 40%;
 }
 
 hr {
-    width: 50px;
+    width: 100px;
     border-top: 10px dotted #4d325c;
-    
+    position: absolute;
+    padding-left: 20px;
 }
 
 .bottom {
