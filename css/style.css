@@ -197,15 +197,7 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
   }
- 
   
   input[type=submit]:hover {
     background-color: rgb(170, 159, 182);
   }  
-
-.phone {
-    position: absolute;
-    left: 50%;
-    height: 500px;
-    padding: 100px;
-}
